@@ -1,0 +1,116 @@
+body{
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+
+}/*
+h1{
+  font-weight: 600;
+  position: absolute;
+  top:300px;
+
+}*/
+.header-desktop-image{ /* we want the image to be under text and image, so we gave it a z-index of -1 */
+  position:absolute;
+  z-index: -1;
+
+}
+object{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.heading-intro{
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.heading-text{
+  /* since the heaing-text has a fixed width, we can center it horizontally by using
+  margin - auto, to center it left and right
+  giving it a max-wdith, make the text more responsive to smaller screen sizer
+  */
+  max-width: 620px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.IOS-button{
+  background-color: hsl(171, 66%, 44%);
+  border-radius: 20px;
+  color : white;
+  font-size:16px;
+  margin-right: 15px;
+}
+.Mac-button{
+  background-color: hsl(233, 100%, 69%);
+  border-radius: 20px;
+  color : white;
+  font-size:16px;
+}
+
+
+/* styling section-two */
+.section-two{
+  margin-top: 170px;
+}
+
+.computer-image{
+  float:left;
+}
+div h3{
+  font-weight: bold;
+
+}
+.features{
+  float :right;
+  text-align: left;
+  margin-top: 70px;
+  margin-right: 400px;
+  width: 350px;
+
+}
+
+.icloud-sync, .quick-search, .complete-history{
+  margin-bottom: 50px;
+}
+
+/* section three syling */
+.section-three{
+  /* we removed section- three from the float */
+  clear : left;
+  padding-top:120px;
+}
+.section-three h2{
+  font-weight: bold;
+}
+.section-four{
+  margin-top:50px;
+}
+.icon{
+  margin-bottom: 40px;
+}
+.section-four p{
+  margin-top: 30px;
+}
+.companies{
+  margin-top:70px;
+  margin-bottom:70px;
+}
+
+.section-five{
+  margin-top:150px;
+}
+footer{
+  background-color:  hsl(201, 11%, 66%);
+  margin-top: 100px;
+  padding-top:50px;
+  padding-bottom:50px;
+
+}
+.test1, .test2 .test3{
+  display : inline;
+}
+
+@media only screen and (max-width:500px){
+  .section-four img{
+    margin-top: 60px;
+  }
+}
